@@ -12,8 +12,12 @@ import Avo from './componentes/ComunicacaoDireta'
 import TextoSincronizado from './componentes/ComunicacaoIndireta'
 import ListaFlex from './componentes/ListaFlex'
 import FlatListExemplo from './componentes/FlatListExemplo'
+import Flex from   './componentes/Flex'
 
  export default createDrawerNavigator({
+    Flex:{
+        screen:  Flex
+    },
     FlatListExemplo:{
         screen:  FlatListExemplo
     },
